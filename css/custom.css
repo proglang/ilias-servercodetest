@@ -1,0 +1,78 @@
+.sct_separator {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    background-color: black;
+    color: white;
+}
+.sct_header {
+    display: block;
+    width: 100%;
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.sct_separator > span {
+    text-transform: uppercase;
+}
+.sct_separator.sct_subsection {
+    background-color: gray;
+}
+
+.sct_codeblocks {
+    display: block;
+}
+.sct_codeblocks > * {
+    margin: 1em 0;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+
+}
+
+.sct_template{
+    display:none;
+}
+.sct_hidden {
+    display:none !important;
+}
+
+.remBlockButton, .addBlockButton {    
+    border-radius: 3px;
+    font-weight: bold;
+    text-align:center;
+    font-size:120%;
+    padding:4px;
+    width:100%;
+    display:block;
+}
+
+.remBlockButton {
+    margin-top:2px!important;
+    border:1px dashed rgb(128, 48, 48);
+    color:rgb(128, 48, 48);
+    background-color:rgb(240, 220, 220);  
+}
+
+.remBlockButton:hover {
+    background-color:rgb(241, 48, 48);
+    color:white;
+}
+
+.addBlockButton {
+    border:1px dashed gray;
+    color:black;
+    background-color:rgb(235, 235, 235);    
+}
+
+.addBlockButton:hover{
+    background-color:rgb(245, 245, 245);
+}
+
+
+.yellow-wave {
+    background: url("yellow-wave.png") repeat-x;
+    background-position-y: bottom;
+}

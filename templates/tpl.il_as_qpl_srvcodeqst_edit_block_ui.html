@@ -1,0 +1,11 @@
+<div id="sct_block_{BLOCK_ID}" data-block-id="{BLOCK_ID}">
+    <select class="form-control" name="block_type[{BLOCK_ID}]" onchange="selectType(this, {BLOCK_ID})"
+        style="display:inline;margin-right:16px">{BLOCK_TYPE_OPTIONS}</select>
+    <label>{SHOW_LINES_TXT}: <input id="sct_block_lines_{BLOCK_ID}" type="number" value="{SHOW_LINES}"
+            name="block_lines[{BLOCK_ID}]" onchange="resizeBlock(this, {BLOCK_ID})"></label>
+    <label>{BLOCK_SEND_TXT}:<input id="sct_block_send_{BLOCK_ID}" type="checkbox" {BLOCK_SEND}
+            name="block_send[{BLOCK_ID}]" value="1"></label>
+    {CODE_EDITOR}
+    <input type="button" class="remBlockButton" value="&uarr; {REMOVE_TXT} &uarr;"
+        onClick="removeBlock('#sct_block_{BLOCK_ID}')">
+</div>
