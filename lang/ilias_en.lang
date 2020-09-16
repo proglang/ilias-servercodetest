@@ -1,17 +1,17 @@
 // English Language File for assServerCodeQuestion Plugin
 <!-- language file start -->
-assServerCodeQuestion#:#Server Sourcecode Frage
+assServerCodeQuestion#:#Server Sourcecode Question
 label_value1#:#Your Solution:
 url#:#URL
 token#:#Token
 source_lang#:#Language
-allow_run#:#Allow execution of code
-auto_score#:#mark automatically
-source_lang_info#:#Syntax-Highlighting Language
-question_edit_info#:#This is a basic SourceCode Question. It supports Syntax-Highlighting and (for select languages) Code Execution .<br>You may use <b>[code][/code]</b> and <b>[hl][/hl]</b> in your Question-Text to insert a syntax-highlighted code-box.
-run_code#:#Ausführen
-cq_blocks#:#Question Items
-cq_blocks_info#:#The final Question is assembled using the following blocks. You my use the following block types:<ul><li><b>Plain Text</b>: Regular Text that is displayd as you Type it without any Syntax Highlighting. You may use <b>[code][/code]</b> and <b>[hl][/hl]</b> as a markup for inline source-code</li><li><b>Code (static)</b>: read-only Source Code with Syntax highlighting. The content is used to assemble the final Program.</li><li><b>Code (hidden)</b>: This Source Code is delivered to the client browser but invisible to the students. You may use this type for boiler-plate code you need for processing. The content is used to assemble the final Program.</li><li><b>Answer</b>: Source Code with Syntax highlighting. Should contain the best solution. The content is used to assemble the final Program.</li><li><b>Test Code</b>: Source Code with Syntax highlighting. Should contain the code required to mark the Answer code.</li></ul>
+allow_run#:#Enable execution of code
+auto_score#:#Enable automatic marking
+source_lang_info#:#Language for syntax highlighting
+question_edit_info#:#This is a server-based SourceCode Question. It supports syntax highlighting and (for select languages) code execution .<br>You may use <b>[code][/code]</b> and <b>[hl][/hl]</b> in the text of your question to insert a code box with syntax highlighting.
+run_code#:#Execute code
+cq_blocks#:#Question items
+cq_blocks_info#:#The final question is assembled from the following blocks. The following types of block are available:<ul><li><b>Plain Text</b>: Regular text that is displayd as is. Use the markup <b>[code][/code]</b> and <b>[hl][/hl]</b> for inline source code</li><li><b>Code (static)</b>: read-only source code displayed with syntax highlighting. The content is executed as part of the final program.</li><li><b>Code (hidden)</b>: This code is executed as part of the program, but not displayed. Use this type for support code.</li><li><b>Answer</b>: Source code with syntax highlighting. Should contain a template solution. Part of the final Program.</li><li><b>Test Code</b>: Source code with syntax highlighting. Should contain the code for marking student answers.</li></ul>
 plain_text#:#Plain Text
 static_code#:#Code (static)
 solution_code#:#Answer
