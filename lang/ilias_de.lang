@@ -7,15 +7,15 @@ token#:#Token
 source_lang#:#Sprache
 allow_run#:#Ausführen von Code zulassen
 auto_score#:#Automatische Bewertung
-source_lang_info#:#Die Programmiersprache die wir für Syntax-Highlighting verwenden.
+source_lang_info#:#Programmiersprache, die fürs Syntax-Highlighting verwendet wird.
 question_edit_info#:#Eine einfache Quellcode-Frage. Eingaben können mit Syntax-Highlighting versehen werden und zur Laufzeit des Tests ausgeführt werden.<br>Innerhalb der Frage kann <b>[code][/code]</b> und <b>[hl][/hl]</b> verwendet werden um Quellcode auszuzeichnen.
 run_code#:#Ausführen
 cq_blocks#:#Frageblöcke
-cq_blocks_info#:#Die Frage wird aus den folgenden Blöcken zusammengestellt. Möglichen Typen sind:<ul><li><b>Freitext</b>: Text der wie der ursprüngliche Fragetext ohne Syntax-Highlighting angezeigt wird. Die <b>[code][/code]</b> und <b>[hl][/hl]</b> können verwendet werden</li><li><b>Code (Angabe)</b>: Nicht veränderbarer Quellcode mit Syntax-Highlighting. Der Inhalt ist Teil des ausgeführten Programmes und sollte fest vorgegebenen Code enthalten.</li><li><b>Code (Versteckt)</b>: Der Quellcode ist teil der ausgelieferten Webseite, wird jedoch nicht angezeigt. Diese Variante kann Code enthalten der Hilfsmethoden o.ä. definiert. Der Inhalt ist Teil des ausgeführten Programmes und sollte fest vorgegebenen Code enthalten.</li><li><b>Lösung</b>: Quellcode mit Syntax-Highlighting. Hier sollte die Musterlösung angegeben werden. Der Inhalt ist teil des ausgeführten Programmes und sollte fest vorgegebenen Code enthalten.</li><li><b>Test Code</b>: Teil des Programms welcher zur Punktevergabe verwendet wird.</li></ul>
+cq_blocks_info#:#Die Frage wird aus den folgenden Blöcken zusammengestellt. Möglichen Typen sind:<ul><li><b>Freitext</b>: Text, der wie der ursprüngliche Fragetext ohne Syntax-Highlighting angezeigt wird. Die <b>[code][/code]</b> und <b>[hl][/hl]</b> können verwendet werden</li><li><b>Code (offen)</b>: Nicht veränderbarer Quellcode, der mit Syntax-Highlighting angezeigt wird. Der Inhalt ist Teil des ausgeführten Programmes und sollte fest vorgegebenen Code enthalten.</li><li><b>Code (versteckt)</b>: Dieser Quellcode ist Teil der ausgeführten Programms, wird jedoch nicht angezeigt. Dieser Block kann Code enthalten der Hilfsmethoden o.ä. definiert. Fest vorgegebener Code.</li><li><b>Lösung</b>: Quellcode mit Syntax-Highlighting. Hier sollte die Musterlösung angegeben werden. Der Inhalt ist Teil des ausgeführten Programmes und sollte fest vorgegebenen Code enthalten.</li><li><b>Test Code</b>: Teil des Programms, welcher zur Punktevergabe verwendet wird.</li></ul>
 plain_text#:#Freitext
-static_code#:#Code (Angabe)
+static_code#:#Code (offen)
 solution_code#:#Lösung
-hidden_code#:#Code (Versteckt)
+hidden_code#:#Code (versteckt)
 block_send_label#:#Verwenden
 test_code#:#Test Code
 remove#:#ENTFERNEN
